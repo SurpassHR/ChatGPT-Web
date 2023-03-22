@@ -423,10 +423,6 @@ const searchOptions = computed(() => {
     return []
   }
 })
-<<<<<<< HEAD
-=======
-
->>>>>>> upstream/main
 // value反渲染key
 const renderOption = (option: { label: string }) => {
   for (const i of promptTemplate.value) {

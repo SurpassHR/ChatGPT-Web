@@ -238,11 +238,7 @@ const downloadPromptTemplate = async () => {
 
 // 移动端自适应相关
 const renderTemplate = () => {
-<<<<<<< HEAD
-  const [keyLimit, valueLimit] = isMobile.value ? [6, 9] : [15, 50]
-=======
   const [keyLimit, valueLimit] = isMobile.value ? [10, 30] : [15, 50]
->>>>>>> upstream/main
 
   return promptList.value.map((item: { key: string; value: string }) => {
     return {
