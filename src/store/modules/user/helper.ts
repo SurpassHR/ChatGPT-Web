@@ -17,7 +17,7 @@ export function defaultSetting(): UserState {
     userInfo: {
       avatar: 'https://s1.imgbed.xyz/2023/03/10/KPtjN.png',
       name: 'RuiHu',
-      description: 'Powered by <a href="https://github.com/Chanzhaoyu/chatgpt-bot" class="text-blue-500" target="_blank" >this repo.</a>',
+      description: 'Powered by this<a href="https://github.com/Chanzhaoyu/chatgpt-bot" class="text-blue-500" target="_blank" > repo.</a>',
     },
   }
 }
